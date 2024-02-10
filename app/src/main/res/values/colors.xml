@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="purple">#382198</color>
+
+    <color name="blue1">#7989FA</color>
+
+    <color name="blue2">#4A58DD</color>
+
+    <color name="blue">#603AEF</color>
+
+    <color name="light_blue">#e1f6fb</color>
+
+
+    <color name="payplex_green">#3FA243</color>
+    <color name="payplex_purple">#4B4487</color>
+    <color name="payplex_orange">#D06E1C</color>
+    <color name="payplex_light_purple">#f4f7fc</color>
+    <color name="red">#F42617</color>
+
+
+
+
+
+</resources>
