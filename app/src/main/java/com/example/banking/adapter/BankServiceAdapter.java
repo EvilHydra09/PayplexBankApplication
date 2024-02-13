@@ -14,9 +14,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.banking.Domain.IconDomain;
 import com.example.banking.R;
+import com.example.banking.activity.CreditCardPayment;
 import com.example.banking.activity.FastagActivity;
+import com.example.banking.activity.MAtmActivity;
 import com.example.banking.activity.MobileRechargeActivity;
 import com.example.banking.activity.MoneyTransferActivity;
+import com.example.banking.activity.UpiTransactionActivity;
 
 import java.util.ArrayList;
 
@@ -59,17 +62,38 @@ public class BankServiceAdapter extends RecyclerView.Adapter<BankServiceAdapter.
                     context.startActivity(intent);
                     break;
                 case 3:
-                    intent = new Intent(context, FastagActivity.class);
+                    intent = new Intent(context, MAtmActivity.class);
                     context.startActivity(intent);
                     break;
                 case 4:
-                    intent = new Intent(context, FastagActivity.class);
+                    intent = new Intent(context, MAtmActivity.class);
                     context.startActivity(intent);
                     break;
                 case 5:
                     intent = new Intent(context, MoneyTransferActivity.class);
                     context.startActivity(intent);
                     break;
+                case 6:
+                    intent = new Intent(context, MoneyTransferActivity.class);
+                    context.startActivity(intent);
+                    break;
+                case 7:
+                    intent = new Intent(context, UpiTransactionActivity.class);
+                    context.startActivity(intent);
+                    break;
+                case 8:
+                    intent = new Intent(context, MoneyTransferActivity.class);
+                    context.startActivity(intent);
+                    break;
+                case 9:
+                    intent = new Intent(context, MoneyTransferActivity.class);
+                    context.startActivity(intent);
+                    break;
+                case 10:
+                    intent = new Intent(context, CreditCardPayment.class);
+                    context.startActivity(intent);
+                    break;
+
                 // Add more cases for additional activities as needed
                 default:
                     break;

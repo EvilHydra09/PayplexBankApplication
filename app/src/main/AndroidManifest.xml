@@ -15,7 +15,20 @@
         android:theme="@style/Theme.Banking"
         tools:targetApi="31">
         <activity
+            android:name=".activity.CreditCardPayment"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MAtmActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.UpiTransactionActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.MoneyTransferActivity"
+            android:configChanges="orientation|screenSize"
             android:exported="false" />
         <activity
             android:name=".activity.MobileRechargeActivity"
@@ -24,8 +37,9 @@
             android:name=".activity.FastagActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.MainActivity"
-            android:exported="true">
+            android:name=".activity.LoginActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
