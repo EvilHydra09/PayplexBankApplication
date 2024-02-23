@@ -10,9 +10,18 @@
         <item name="android:statusBarColor">@color/white</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
+    <style name="AppTheme.WhiteStatusbar" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
 
     <style name="Theme.Banking" parent="Base.Theme.Banking" />
-
+    <style name="CustomTabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabIndicatorGravity">bottom</item>
+        <item name="tabIndicator">@drawable/tab_layout_indicator</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+    </style>
 
 
 

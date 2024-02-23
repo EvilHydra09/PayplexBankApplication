@@ -11,9 +11,9 @@
 
     <color name="blue2">#4A58DD</color>
 
-    <color name="blue">#603AEF</color>
+    <color name="blue">#66B9F9</color>
 
-    <color name="light_blue">#e1f6fb</color>
+        <color name="light_blue">#e1f6fb</color>
 
 
     <color name="payplex_green">#3FA243</color>
@@ -21,7 +21,7 @@
     <color name="payplex_orange">#D06E1C</color>
     <color name="payplex_light_purple">#f4f7fc</color>
     <color name="red">#F42617</color>
-    <color name="grey">#EDEDED</color>
+    <color name="grey">#E4E4E4</color>
 
 
 

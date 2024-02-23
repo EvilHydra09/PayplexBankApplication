@@ -44,11 +44,8 @@ public class MainActivity extends AppCompatActivity {
     private void bankRecyclerView() {
         bankServiceRecyclerView = findViewById(R.id.bank_recyclerview);
         ArrayList<IconDomain> items = new ArrayList<>();
-        items.add(new IconDomain("ICICI AEPS", "icici"));
-        items.add(new IconDomain("Paytm AEPS", "paytm"));
-        items.add(new IconDomain("City Union Bank AEPS", "citibank"));
+        items.add(new IconDomain("AEPS", "icici"));
         items.add(new IconDomain("MATM", "matm"));
-        items.add(new IconDomain("Paytm Money Transfer", "paytm"));
         items.add(new IconDomain("Money Transfer", "money_transfer"));
         items.add(new IconDomain("Account Opening", "account_opening"));
         items.add(new IconDomain("UPI Transaction", "upi"));
@@ -67,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
     private void cardViewPager() {
         viewPager = findViewById(R.id.viewpager2);
         ArrayList<CardDomain> cardDomains = new ArrayList<>();
-        cardDomains.add(new CardDomain("Abhidnya Sonawane", "5421 7867 1432 8989", "card_bg_img", "01/27",R.drawable.card_bg_img));
+        cardDomains.add(new CardDomain("Abhidnya Sonawane", "5421 7867 1432 8989", "card_bg_img3", "01/27",R.drawable.card_bg_img8));
         cardDomains.add(new CardDomain("Atharva Sonawane", "5324 2222 3333 4444", "card_bg_img1", "03/29",R.drawable.card_bg_img1));
         cardDomains.add(new CardDomain("Basant Bhagat", "4312 13431 3333 4444", "card_bg_img2", "11/28",R.drawable.card_bg_img5));
 
@@ -84,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<IconDomain> items = new ArrayList<>();
         items.add(new IconDomain("Mobile \nRecharge", "phone"));
-        items.add(new IconDomain("DTH", "signal"));
         items.add(new IconDomain("FastTag", "fastag"));
         items.add(new IconDomain("Electricity \n Bill", "light_bulb"));
         items.add(new IconDomain("Credit \n Card \n Payment", "credit_card"));

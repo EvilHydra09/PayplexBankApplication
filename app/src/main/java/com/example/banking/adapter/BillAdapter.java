@@ -51,8 +51,8 @@ public class BillAdapter extends RecyclerView.Adapter<BillAdapter.ViewHolder> {
                     context.startActivity(intent);
                     break;
                 case 1:
-                    //intent = new Intent(context, ThirdActivity.class);
-                  //  context.startActivity(intent);
+                    intent = new Intent(context, FastagActivity.class);
+                    context.startActivity(intent);
                     break;
                 case 2:
                     intent = new Intent(context, FastagActivity.class);

@@ -15,6 +15,37 @@
         android:theme="@style/Theme.Banking"
         tools:targetApi="31">
         <activity
+            android:name=".activity.TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ComingSoonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.WhiteStatusbar" />
+        <activity
+            android:name=".activity.MAtmTransaction"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TransferMoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AddBeneficiaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.IciciActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DMTUserActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.CreditCardPayment"
             android:exported="false" />
         <activity

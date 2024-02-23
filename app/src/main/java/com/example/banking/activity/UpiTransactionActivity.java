@@ -91,7 +91,7 @@ public class UpiTransactionActivity extends AppCompatActivity {
                 builder.setView(dialogView);
 
                 // Make the dialog not dismiss on touch outside
-                builder.setCancelable(true);
+//                builder.setCancelable(true);
 
                 ImageView dialogImage = dialogView.findViewById(R.id.dialogImage);
 

@@ -94,9 +94,6 @@
                             android:text="Bank Service"
                             android:textColor="@color/black"
                             android:textStyle="bold" />
-
-
-
                     </LinearLayout>
 
                     <androidx.recyclerview.widget.RecyclerView

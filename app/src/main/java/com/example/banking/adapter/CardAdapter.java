@@ -47,8 +47,8 @@ public class CardAdapter extends PagerAdapter {
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         View view = LayoutInflater.from(context).inflate(R.layout.card_item,null);
         TextView cardName = view.findViewById(R.id.cardName);
-        TextView cardNo = view.findViewById(R.id.cardNo);
-        TextView cardDate = view.findViewById(R.id.cardDate);
+        TextView cardNo = view.findViewById(R.id.tv_acname);
+        TextView cardDate = view.findViewById(R.id.tllimit);
         ConstraintLayout constraintLayout = view.findViewById(R.id.cardimg);
 
         cardName.setText(cardDomains.get(position).getCardname());

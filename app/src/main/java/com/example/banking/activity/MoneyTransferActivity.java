@@ -3,11 +3,13 @@ package com.example.banking.activity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.example.banking.R;
 import com.google.android.material.textfield.TextInputEditText;
@@ -19,7 +21,7 @@ public class MoneyTransferActivity extends AppCompatActivity {
     TextInputEditText datepicker,search_phone,fix_phone_no;
 
     LinearLayout createuser;
-    Button search_button;
+    Button search_button,existing_user;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,7 @@ public class MoneyTransferActivity extends AppCompatActivity {
         search_phone = findViewById(R.id.search_phone_no);
         createuser = findViewById(R.id.create_linear_layout);
         fix_phone_no = findViewById(R.id.fix_phone_no);
+        existing_user = findViewById(R.id.bt_existing_user);
         datepicker.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,10 +46,16 @@ public class MoneyTransferActivity extends AppCompatActivity {
                 createuser.setVisibility(View.VISIBLE);
                 String text = search_phone.getText().toString();
                 fix_phone_no.setText(text);
-
-
-
-
+            }
+        });
+        existing_user.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String cNumber = search_phone.getText().toString();
+                Toast.makeText(MoneyTransferActivity.this, cNumber, Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), DMTUserActivity.class);
+                intent.putExtra("cNumber",cNumber);
+                startActivity(intent);
             }
         });
 
